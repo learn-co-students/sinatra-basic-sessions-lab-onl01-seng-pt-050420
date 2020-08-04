@@ -9,6 +9,8 @@ gem 'sinatra'
     gem 'shotgun'
     gem 'pry'
     gem 'require_all'
+
+gem 'sysrandom'
     
 group :test do
       gem 'rspec'
