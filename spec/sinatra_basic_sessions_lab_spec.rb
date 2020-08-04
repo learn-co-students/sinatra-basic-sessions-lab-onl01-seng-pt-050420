@@ -23,7 +23,6 @@ describe App do
       click_button "submit"
       expect(page).to have_text("socks")
     end
-
     it "sets the params in the session hash" do 
       params = {
         :item => "socks"
